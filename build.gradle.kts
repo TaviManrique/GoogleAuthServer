@@ -47,6 +47,7 @@ dependencies {
 
     // KMongo
     implementation("org.litote.kmongo:kmongo-async:$kmongoVersion")
+    implementation("org.litote.kmongo:kmongo-serialization-mapping:$kmongoVersion")
     implementation("org.litote.kmongo:kmongo-coroutine-serialization:$kmongoVersion")
 
     // Koin core features
