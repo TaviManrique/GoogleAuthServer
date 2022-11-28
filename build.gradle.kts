@@ -6,9 +6,9 @@ val koinVersion: String by project
 
 plugins {
     application
-    kotlin("jvm") version "1.7.20"
+    kotlin("jvm") version "1.7.0"
     id("io.ktor.plugin") version "2.1.2"
-    id("org.jetbrains.kotlin.plugin.serialization") version "1.7.20"
+    id("org.jetbrains.kotlin.plugin.serialization") version "1.7.0"
 }
 
 group = "com.manriquetavi"
@@ -47,7 +47,6 @@ dependencies {
 
     // KMongo
     implementation("org.litote.kmongo:kmongo-async:$kmongoVersion")
-    implementation("org.litote.kmongo:kmongo-serialization-mapping:$kmongoVersion")
     implementation("org.litote.kmongo:kmongo-coroutine-serialization:$kmongoVersion")
 
     // Koin core features
